@@ -8,9 +8,9 @@ from pyswahili.swahili_node import PySwahili
 class App():
     def __init__(self):
         self.pyswahili_parser = argparse.ArgumentParser(
-            description="Pyswahili Repl application")
+            description="hindipy Repl application")
         self.pyswahili_parser.add_argument('python_script', default="launch", type=str,
-                                           help="Specify the script you would like pyswahili to run", nargs='?')
+                                           help="Specify the script you would like hindi.py to run", nargs='?')
 
     def run(self):
         args = self.pyswahili_parser.parse_args()
