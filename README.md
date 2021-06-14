@@ -50,27 +50,25 @@ $ sudo pip3 install -e pyswahili
 If you're a Windows user, I would recommed running command prompt(cmd) with admistrator priveledge during the installation.
 
 ```powershell
-$ git clone https://github.com/Kalebu/pyswahili
+$ git clone https://github.com/HawkUs-Git/hindi.py
 $ cd pyswahili
 $ pip install -e pyswahili
 ```
-
+Pyshwaili is the code name for hindi.py for random reasons.
 ## REPL MODE
 Now that the pyswahili package is installed, we can start playing with it, To involve repl just run **pyswahili** without any argument 
 just as shown below;
 
 ```bash       
-                 _____                         _     _ _ _ 
-                |  __ \                       | |   (_) (_)
-                | |__) |   _ _____      ____ _| |__  _| |_ 
-                |  ___/ | | / __\ \ /\ / / _` | '_ \| | | |
-                | |   | |_| \__ \\ V  V / (_| | | | | | | |
-                |_|    \__, |___/ \_/\_/ \__,_|_| |_|_|_|_|
-                        __/ |                              
-                        |___/                               
+                 __    __      __     .__   __.     _______      __            .______      ____    ____    
+|  |  |  |    |  |    |  \ |  |    |       \    |  |           |   _  \     \   \  /   /    
+|  |__|  |    |  |    |   \|  |    |  .--.  |   |  |           |  |_)  |     \   \/   /     
+|   __   |    |  |    |  . `  |    |  |  |  |   |  |           |   ___/       \_    _/      
+|  |  |  |    |  |    |  |\   |    |  '--'  |   |  |     __    |  |             |  |        
+|__|  |__|    |__|    |__| \__|    |_______/    |__|    (__)   | _|             |__|     
             
-author: Kalebu Jordan (github.com/kalebu)
-Pyswahili 1.0 on Linux | Saturday 02, January 2021
+author: Arjun C (github.com/hawkus-git)
+hindi.py 1.0 on Linux | Saturday 02, January 2021
 -> 
 ```
 
