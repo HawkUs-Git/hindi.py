@@ -17,15 +17,15 @@ class PySwahili_Repl:
 
     @property
     def logo(self):
-        return r"""       
-                 _____                         _     _ _ _ 
-                |  __ \                       | |   (_) (_)
-                | |__) |   _ _____      ____ _| |__  _| |_ 
-                |  ___/ | | / __\ \ /\ / / _` | '_ \| | | |
-                | |   | |_| \__ \\ V  V / (_| | | | | | | |
-                |_|    \__, |___/ \_/\_/ \__,_|_| |_|_|_|_|
-                        __/ |                              
-                        |___/                               
+        return r"""     
+
+   __    __      __     .__   __.     _______      __            .______      ____    ____    
+|  |  |  |    |  |    |  \ |  |    |       \    |  |           |   _  \     \   \  /   /    
+|  |__|  |    |  |    |   \|  |    |  .--.  |   |  |           |  |_)  |     \   \/   /     
+|   __   |    |  |    |  . `  |    |  |  |  |   |  |           |   ___/       \_    _/      
+|  |  |  |    |  |    |  |\   |    |  '--'  |   |  |     __    |  |             |  |        
+|__|  |__|    |__|    |__| \__|    |_______/    |__|    (__)   | _|             |__|        
+                                                                                                                      
             """
 
     @staticmethod
@@ -153,7 +153,7 @@ class PySwahili_Repl:
     def load_system_specification(self):
         specification = platform.uname()
         now = datetime.datetime.now().strftime("%A %d, %B %Y")
-        specification = "Pyswahili 1.0 on {} | {}".format(
+        specification = "Hindi.py 1.0 on {} | {}".format(
             specification.system, now)
         return specification
 
