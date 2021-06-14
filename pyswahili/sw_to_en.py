@@ -1,43 +1,43 @@
 dictionary = {
     "keywords": {
-        "tupu": "None",
-        "Kweli": "True",
-        "SiKweli": "False",  # semantical correction
-        "vunja": "break",
-        "endelea": "continue",
-        "rudisha": "return",
-        "ingiza": "input",
-        "kama": "if",
-        "pia": "elif",  # as long as it makes sense semantical translation does not matter
-        "ikiwa": "for",
-        "katiya": "range",
-        "imo": "in",
-        "wakati": "while",
-        "andika": "print",
-        "zaidi": "else",
-        "njia": "def",  # njia is a more relevant keyword to functions/method
-        "pamoja": "with",
-        "darasa": "class",
-        "futa": "del",  # futa is a lot simple to catch with and is commonly used than ondoa
-        "kutoka": "from",
-        "sio": "not",
-        "ni": "is",
-        "au": "or",
-        "na": "and",
-        "neno": "str",
-        "orodha": "list",
-        "kamusi": "dict",
-        "jaribu": "try",
-        "ila": "except",  # ila is a lot simple to catch with and most relevant translation of except
+        "nahin": "None",
+        "sach": "True",
+        "asaty": "False",  # semantical correction
+        "tootana": "break",
+        "rakhen": "continue",
+        "vaapasee": "return",
+        "input": "input",
+        "agar": "if",
+        "elif": "elif",  # as long as it makes sense semantical translation does not matter
+        "liye": "for",
+        "range": "range",
+        "mein": "in",
+        "jabaki": "while",
+        "print": "print",
+        "any": "else",
+        "def": "def",  # njia is a more relevant keyword to functions/method
+        "saath": "with",
+        "kaksha": "class",
+        "del": "del",  # futa is a lot simple to catch with and is commonly used than ondoa
+        "se": "from",
+        "nahin": "not",
+        "hai": "is",
+        "ya": "or",
+        "tatha": "and",
+        "str": "str",
+        "soochee": "list",
+        "taana": "dict",
+        "prayatn": "try",
+        "sivaay": "except",  # ila is a lot simple to catch with and most relevant translation of except
     },
     "block_keywords": {
-        "kama": "if",
-        "pia": "elif",  # reference line 10
-        "zaidi": "else",
-        "wakati": "while",
-        "ikiwa": "for",
-        "njia": "def",  # reference line 17
-        "pamoja": "with",
-        "ila": "except",  # reference line 30
+        "if": "if",
+        "auragar": "elif",  # reference line 10
+        "else": "else",
+        "while": "while",
+        "for": "for",
+        "paribhaasha": "def",  # reference line 17
+        "with": "with",
+        "except": "except",  # reference line 30
     },
 }
